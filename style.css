@@ -33,6 +33,7 @@ header{
     margin-top: 27px;
     margin-bottom: 169px;
 }
+
 .image img{
     width: 556.01px;
     height: 438px;
@@ -68,9 +69,11 @@ header{
     color: #6C6C6C;
 }
 /* --groups-- */
-#text-area{
+.text-size{
     color: #173562;
     font-size: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
 }
 .groups{
     display: grid;
@@ -92,4 +95,52 @@ header{
 .align p{
     margin-left: 35px;
     color: #817f7f;
+}
+/* --partner section-- */
+#sponser{
+    margin: 5% 0%;
+    background-color: honeydew;
+    height: 450px;
+}
+#sponser #partners{
+    padding-top: 2px;
+}
+.partner-company{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    margin-left: 18%;
+    width: 80%;
+}
+/* --footer-- */
+hr{
+    border: 1px solid gray;
+    width: 80%;
+}
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 118px;
+}
+.logo img{
+    
+    height: 110px;
+    width: 483.87px;
+}
+.social-icon{
+    font-size: 32px;
+    color: #969BAB;
+    margin-top: 20px;
+}
+.social-icon .fab{
+    margin-left: 14px;
+}
+.social-icon .colour{
+    color: #969BAB;
+}
+.copyright{
+    font-size: 18px;
+    color: #000000;
 }
