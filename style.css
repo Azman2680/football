@@ -1,5 +1,7 @@
-/* --text font-- */
+/* --text font: 700-- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* --text font: 400-- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* common style of utilities */
 body{
     font-family: 'Poppins', sans-serif;
@@ -36,4 +38,58 @@ header{
     height: 438px;
     margin-top: 135px;
     margin-bottom: 114px;
+}
+/* --players blog-- */
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/* --groups-- */
+#text-area{
+    color: #173562;
+    font-size: 50px;
+}
+.groups{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    padding: 3%;
+    border-radius: 15px;
+}
+.text{
+    color: #969696;
+    font-size: 35px;
+}
+.group{
+    display: flex;
+}
+.align p{
+    margin-left: 35px;
+    color: #817f7f;
 }
